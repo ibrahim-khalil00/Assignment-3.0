@@ -10,6 +10,43 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/763e0e1bf4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "btn-orange": "#FF4240",
+              "text-sm": "#424247",
+              "text-xl": "#131318",
+              "text-rgba": "rgba(255, 255, 255, 0.60)",
+              rgba: "rgba(19, 19, 24, 0.60)",
+              rgb: "rgba(19, 19, 24, 0.50)",
+              border: "rgba(19, 19, 24, 0.10)",
+              bg: "rgba(19, 19, 24, 0.03)",
+              "bg-green": "rgba(188, 237, 109, 0.10)",
+              "bg-yellow": "rgba(253, 221, 95, 0.10)",
+              "bg-blue": "rgba(98, 156, 243, 0.10)",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body></body>
 </html>
